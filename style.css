@@ -1,57 +1,63 @@
-* {
-    font-family: sans-serif;
-    box-sizing: border-box;
-}
-
-.x {
+    body {
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    /* .x {
     justify-content: center;
     align-items: center;
     padding: 40px;
-}
-
-.y {
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 20px;
-    margin: auto;
-    padding: 40px;
-    width: 600px;
-}
-
-h1,
-h2 {
-    text-transform: uppercase;
-}
-
-h1 {
-    font-size: 40px;
-    padding-bottom: 28px;
-    font-weight: 100;
-}
-
-P {
-    font-size: 28px;
-}
-
-h2 {
-    font-size: 28px;
-    color: #a6192e;
-}
-
-span {
-    box-sizing: border-box;
-    padding: 30px 40px;
-    background-color: #463d36;
-    display: block;
-    font-size: 24px;
-    color: white;
-    text-align: left;
-    width: 370px;
-    border-radius: 15px;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-}
-
-body {
-    background-color: #463d36;
-}
+} */
+    
+    .y {
+        background-color: white;
+        border-radius: 20px;
+        margin: 100px auto;
+        padding: 40px;
+        width: 600px;
+        box-shadow: 15px 15px 15px rgba(255, 0, 255, 0.5), -15px -15px 15px rgba(0, 0, 0, 0.5);
+        ;
+        height: 300px;
+    }
+    
+    h1,
+    h2 {
+        text-transform: uppercase;
+    }
+    
+    h1 {
+        font-size: 40px;
+        padding-bottom: 28px;
+        font-weight: 100;
+        margin-top: 0;
+        color: #463d36;
+        margin-bottom: 0;
+    }
+    
+    P {
+        font-size: 28px;
+        margin-top: 0;
+    }
+    
+    h2 {
+        font-size: 28px;
+        color: #a6192e;
+        margin-bottom: 0;
+    }
+    
+    button {
+        box-sizing: border-box;
+        padding: 30px 40px;
+        background-color: #463d36;
+        display: block;
+        font-size: 24px;
+        color: white;
+        text-align: left;
+        width: 370px;
+        border-radius: 15px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    
+    body {
+        background-color: #463d36;
+    }
